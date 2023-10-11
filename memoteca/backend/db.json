@@ -1,0 +1,22 @@
+{
+    "pensamentos": [
+        {
+            "id": 1,
+            "conteudo": "Que bom que você veio",
+            "autoria": "Samuel",
+            "modelo": "modelo1"
+        },
+        {
+            "id": 2,
+            "conteudo": "Penso logo existo",
+            "autoria": "Samuel",
+            "modelo": "modelo2"
+        },
+        {
+            "id": 3,
+            "conteudo": "Angular é show de bola bixo",
+            "autoria": "Samuel",
+            "modelo": "modelo3"
+        }
+    ]
+}
