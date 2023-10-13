@@ -14,6 +14,8 @@ export class ListContentComponent {
   constructor(private service: PensamentoService) { }
 
   ngOnInit(): void {
-    this.service.list();
+    this.service.list().subscribe((listCards) => {
+        this.listCards = listCards;
+    });
   }
 }

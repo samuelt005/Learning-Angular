@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { ListContentComponent } from './components/content/list-content/list-content.component';
 import { CardComponent } from './components/content/card/card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DeleteContentComponent } from './components/content/delete-content/delete-content.component';
+import { EditContentComponent } from './components/content/edit-content/edit-content.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     CreateContentComponent,
     ListContentComponent,
-    CardComponent
+    CardComponent,
+    DeleteContentComponent,
+    EditContentComponent
   ],
   imports: [
     BrowserModule,
